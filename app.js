@@ -3,7 +3,8 @@ require('dotenv').config()
 
 const config = {
     rtmp: {
-        port: 1935,
+        // port: 1935,
+        port: process.env.PORT,
         chunk_size: 60000,
         gop_cache: true,
         ping: 30,
