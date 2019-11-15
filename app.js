@@ -16,8 +16,8 @@ const config = {
     },
     https: {
         port: 8443,
-        key: './key.pem',
-        cert: './cer.pem',
+        key: './privatekey.pem',
+        cert: './certificate.pem',
     }
 };
 
