@@ -16,8 +16,8 @@ const config = {
     },
     https: {
         port: 8443,
-        key: '/etc/letsencrypt/keys/0000_key-certbot.pem',
-        cert: '/etc/letsencrypt/csr/0000_csr-certbot.pem',
+        key: './privatekey.pem',
+        cert: './certificate.pem',
     }
 };
 
