@@ -21,7 +21,8 @@ Time: <p id="time"></p>
                 var videoElement = document.getElementById('videoElement');
                 var flvPlayer = flvjs.createPlayer({
                     type: 'flv',
-                    url: 'https://34.218.237.127:8000/live/STREAM_NAME.flv'
+                    //url: 'https://34.218.237.127:8443/live/STREAM_NAME.flv',
+                    url: 'https://34.218.237.127:8443/live/STREAM_NAME.flv'
                 });
                 flvPlayer.attachMediaElement(videoElement);
                 flvPlayer.load();
