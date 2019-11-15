@@ -13,6 +13,11 @@ const config = {
     http: {
         port: process.env.PORT || 8000,
         allow_origin: '*'
+    },
+    https: {
+        port: 8443,
+        key: '/etc/letsencrypt/keys/0000_key-certbot.pem',
+        cert: '/etc/letsencrypt/csr/0000_csr-certbot.pem',
     }
 };
 
